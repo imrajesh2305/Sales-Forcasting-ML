@@ -1,0 +1,129 @@
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    font-size: 1.05em;
+    font-weight: 700;
+    color: aliceblue;
+    background-color: #3D1560;
+    display: inline-block;
+    cursor: pointer; 
+
+    max-width: 80%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+}
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    margin-right: 0.25em;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: #3D1560;
+}
+
+
+h5{
+    text-align: center;
+    font-size: 22px;
+    color: #3D1560;
+    font-weight: bold;
+}
+.text-center{
+    padding: 15px;
+    width: 55%;
+    align-items: center;
+    margin-left: 23%;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+p{
+    display: inline-block;
+    font-size: 21px;
+    color: #3D1560;
+    font-weight: bold;
+}
+
+.text-center[_ngcontent-ng-c1016568306] input[type=submit][_ngcontent-ng-c1016568306]{
+    color: white;
+    border: 0px solid #3D1560 !important;
+}
+
+.button, button, input[type=submit], input[type=reset], input[type=button] {
+    background-color: #DF678C;
+    color: white;
+    border: 1px solid #DF678C;
+}
+
+
+.text-center[_ngcontent-ng-c1016568306] input[type=submit][_ngcontent-ng-c1016568306]:hover {
+    background-color: #3D1560;
+}
+
+.button{
+    text-align: center;
+    margin-left: 75%;
+}
+.form-group input[type=file]{
+    display: inline-block;
+    margin-left: 2%;
+    color: #3D1560;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+}
+.form-group input[type=text]{
+    display: inline-block;
+    margin-left: 2%;
+    border: none;
+    border-bottom: 2px solid #3D1560;
+    color: #3D1560;
+    font-weight: bold;
+    outline: none;
+}
+.form-group select{
+    color: #3D1560;
+    margin-left: 2%;
+}
+.form-group input[type=date]{
+    display: inline-block;
+    margin-left: 2%;
+    color: #3D1560;
+    border: none;
+    border-bottom: 2px solid #3D1560;
+    font-weight: bold;
+    outline: none;
+    text-align: center;
+}
+.text-center input[type=submit]{
+    display: inline-block;
+    margin-left: 2%;
+    text-align: center;
+}
+.form-control{
+    width: 400px;
+}
+.text-center input[type=submit]{
+    color: #3D1560;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid #3D1560 !important;
+    border-radius: 25px;
+    padding: 7px 25px 7px 25px;
+    border: none;
+    background-color: none;
+}
